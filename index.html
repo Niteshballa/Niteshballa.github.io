@@ -28,8 +28,18 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
-
-<body>  <!-- ======= Header ======= -->
+<div id="loading">
+  </div>
+  <script type="text/javascript">
+    var load=document.getElementById("loading");
+    setTimeout(function loadfun()
+    {
+      load.style.display='none';
+    },3000);
+  </script>
+<body onload="loadfun()">  <!-- ======= Header ======= -->
+  
+  
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex flex-column align-items-center">
 
@@ -69,9 +79,9 @@
       </div>
 
       <div class="social-links text-center">
-        <a href="https://github.com/niteshballa" class="github" target="_blank"><i class="bi bi-github"></i></a>
-        <a href="https://www.instagram.com/theniteshballa/" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/nitesh-balla-868b2519b/" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/niteshballa" class="github"><i class="bi bi-github"></i></a>
+        <a href="https://www.instagram.com/theniteshballa/" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/nitesh-balla-868b2519b/" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
 
     </div>
